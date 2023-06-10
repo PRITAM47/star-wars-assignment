@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "StarWarFont";
+  src: url("./fonts/Starjhol.ttf") format("truetype");
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bg-image {
+  background-image: url("./images/bg.jpg");
+  height: 100%;
+}
+
+h1 {
+  font-family: "StarWarFont";
+  color: #f9e50d;
+  font-size: 4.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h5 {
+  font-size: 2.2rem;
+}
+
+h6 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.pb {
+  padding-bottom: 20px;
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.button {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 30px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  background-color: #f9e50d;
+  color: #000;
+  border-radius: 20px;
+  cursor: pointer;
+}
